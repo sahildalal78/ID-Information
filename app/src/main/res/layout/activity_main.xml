@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.example.sd.idinformation.MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/hint_id"
+        android:background="@color/colorDivider"
+
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="btnSubmit_onClick"
+        android:text="@string/submit_buttton"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorDivider"
+        android:text="TextView"
+        tools:text="@string/TextView" />
+</LinearLayout>
